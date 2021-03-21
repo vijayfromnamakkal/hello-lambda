@@ -6,7 +6,7 @@ package helloworld;
  */
 public class App {
 
-  public String hello() {
-	   return "Hello world";
+  public String hello(String name) {
+	   return "Hello world "+ name;
   }
 }
